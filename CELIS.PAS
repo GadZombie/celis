@@ -38,7 +38,7 @@ end;
 gotoxy(7,24);write('‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹');
 textcolor(5);
 gotoxy(7,2);write('ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ');
-textcolor(15);gotoxy(17,3);write('CELIS wersja demonstracyjna 0.667 (c)SK GAD 2000');
+textcolor(15);gotoxy(17,3);write('CELIS wersja demonstracyjna 0.668 (c)SK GAD 2000');
 for a:=1 to 10 do begin
     textcolor(a+3);gotoxy(6+a,3);write('˛');gotoxy(75-a,3);write('˛');
 end;
@@ -210,8 +210,7 @@ freemem(chmur,sizeof(chmur^));
 textcolor(15);gotoxy(46,12);write('[ OK ]');
 
 textcolor(12);
-gotoxy(22,15);writeln('Odwiedz strone http://gad.koti.com.pl/');
-gotoxy(15,16);writeln('Mozesz tez napisac maila na adres gad@gad.koti.com.pl');
+gotoxy(22,15);writeln('Odwiedz strone https://gadz.pl/');
 
 {demo}
 textcolor(15);
@@ -240,7 +239,7 @@ end;
 trybtext;
 textbackground(0);
 textcolor(7);
-writeln('-<Celis>---<(c)2000 SK GAD>---<http://gad.koti.com.pl/>---<gad@gad.koti.com.pl>-');
+writeln('-<Celis>---<(c)2000 SK GAD>---<https://gadz.pl/>------------------');
 end;
 
 {*}PROCEDURE glowna_struktura_gry;
